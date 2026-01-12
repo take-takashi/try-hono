@@ -20,4 +20,7 @@ codex = "latest"
 
 # hono setup
 % npm create hono@latest hono -- --template cloudflare-workers
+# メモ：以下のコマンドの方がいいと思われる
+% npm create hono@latest backend -- --template cloudflare-workers --pm npm --install
+
 ```
